@@ -10,8 +10,6 @@ HS1527 encoder(TXPIN);
 #define BTN_C 1
 #define BTN_D 0
 
-#define HS_1527_PULSETIME 284 // Time in microseconds for one pulse
-
 char *address = "\xED\x9D\xA8";
 int repeat = 5;
 

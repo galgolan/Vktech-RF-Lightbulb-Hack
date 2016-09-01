@@ -2,9 +2,7 @@
 
 #include "hs1527.h"
 
-#ifndef HS_1527_PULSETIME
-  #define HS_1527_PULSETIME 284 // Time in microseconds for one pulse
-#endif
+#define HS_1527_PULSETIME 290 // Time in microseconds for one pulse
 
 
 HS1527::HS1527(int pin)
